@@ -8,13 +8,13 @@ let game = function(){
     const random = Math.floor(Math.random() * 26);
     let userNumb = prompt(name + " gok maar! " + random);
     let i = 0;
-    while (userNumb != random && i < 5) {
+    while (userNumb != random && i < 4) {
         userNumb = prompt("Dat is niet correct " + random);
         i++;
-    } if (userNumb = random) {
+    } if (userNumb == random) {
         alert("Gefeliciteerd je hebt gewonnen");
         alert("Dag " + name);
-    } else {
+    } else if (userNumb != random) {
     alert("Jammer");
     alert("Dag " + name);
     }
