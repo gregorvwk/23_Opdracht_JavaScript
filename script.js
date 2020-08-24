@@ -6,10 +6,10 @@ let game = function(){
     alert("Top! Je moet het nummer raden tussen 0 en 25");
     alert("Oke succes!");
     const random = Math.floor(Math.random() * 26);
-    let userNumb = prompt(name + " gok maar! " + random);
+    let userNumb = prompt(name + " gok maar!");
     let i = 0;
     while (userNumb != random && i < 4) {
-        userNumb = prompt("Dat is niet correct " + random);
+        userNumb = prompt("Dat is niet correct");
         i++;
     } if (userNumb == random) {
         alert("Gefeliciteerd je hebt gewonnen");
