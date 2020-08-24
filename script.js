@@ -8,7 +8,7 @@ let game = function(){
     let random = Math.floor(Math.random() * 26);
     let userNumb = prompt(name + " gok maar! " + random);
     let i = 0;
-    while (userNumb != random, i < 5) {
+    while (userNumb = random || i < 5) {
         prompt("Dat is niet correct " + random);
         i++;
     } if (userNumb = random) {
