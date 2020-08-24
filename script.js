@@ -9,7 +9,7 @@ let game = function(){
     let userNumb = prompt(name + " gok maar! " + random);
     let i = 0;
     while (userNumb != random && i < 5) {
-        prompt("Dat is niet correct " + random);
+        userNumb = prompt("Dat is niet correct " + random);
         i++;
     } if (userNumb = random) {
         alert("Gefeliciteerd je hebt gewonnen");
