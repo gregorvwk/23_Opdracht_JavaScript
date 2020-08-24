@@ -7,10 +7,16 @@ let game = function(){
     alert("Oke succes!");
     let random = Math.floor(Math.random() * 26);
     let userNumb = prompt(name + " gok maar! " + random);
-    if (userNumb != random) {
+    let i = 0;
+    while (userNumb != random, i < 5) {
         prompt("Dat is niet correct " + random);
-    } 
+        i++;
+    } if (userNumb = random) {
         alert("Gefeliciteerd je hebt gewonnen");
         alert("Dag " + name);
+    } else {
+    alert("Jammer");
+    alert("Dag " + name);
+    }
 }
-alert(game())
+alert(game());
